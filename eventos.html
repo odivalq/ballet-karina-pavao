@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos | Ballet Karina Pavão</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Ballet Karina Pavão</div>
+        <ul>
+            <li><a href="index.html#inicio">Início</a></li>
+            <li><a href="index.html#sobre">Sobre</a></li>
+            <li><a href="eventos.html" class="active">Eventos</a></li>
+            <li><a href="index.html#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero-small" style="background: var(--primary); padding: 60px 0; text-align: center;">
+        <h1 style="font-size: 2.5rem;">Nossa Agenda e Memórias</h1>
+        <p>Acompanhe nossos próximos passos e reveja grandes espetáculos.</p>
+    </header>
+
+    <section class="container">
+        <h2 class="section-title">Próximos Eventos</h2>
+        <div id="lista-andamento" class="events-grid">
+            <p style="text-align: center; grid-column: 1/-1;">Carregando agenda...</p>
+        </div>
+        
+        <hr class="divider" style="margin: 60px 0; border: 0; border-top: 1px solid #ddd;">
+
+        <h2 class="section-title">Eventos Passados</h2>
+        <div id="lista-passados" class="events-grid">
+            <p style="text-align: center; grid-column: 1/-1;">Carregando galeria...</p>
+        </div>
+    </section>
+
+    <footer id="contato">
+        <div class="container footer-content">
+            <div>
+                <h3>Contato</h3>
+                <p>📍 Rua das Artes, 100 - Centro</p>
+                <p>📞 (11) 99999-8888</p>
+            </div>
+            <div class="logo">Ballet Karina Pavão</div>
+        </div>
+    </footer>
+
+    <div id="modalEvent" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modal-body-content">
+                </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

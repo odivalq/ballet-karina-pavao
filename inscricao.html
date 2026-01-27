@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição | Ballet Karina Pavão</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Ballet Karina Pavão</div>
+        <ul>
+            <li><a href="index.html">Voltar ao Início</a></li>
+        </ul>
+    </nav>
+
+    <section class="container" style="max-width: 600px;">
+        <h2 class="section-title">Inscrição para Evento</h2>
+        <p style="text-align: center; margin-bottom: 30px;">Preencha os dados abaixo e entraremos em contato para confirmar sua vaga.</p>
+
+        <form action="https://formspree.io/f/seuid_aqui" method="POST" class="form-inscricao">
+            <div class="form-group">
+                <label for="nome">Nome Completo do Aluno:</label>
+                <input type="text" id="nome" name="nome" required placeholder="Ex: Maria Silva">
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail de Contato:</label>
+                <input type="email" id="email" name="_replyto" required placeholder="seuemail@exemplo.com">
+            </div>
+
+            <div class="form-group">
+                <label for="whatsapp">WhatsApp:</label>
+                <input type="tel" id="whatsapp" name="whatsapp" required placeholder="(11) 99999-9999">
+            </div>
+
+            <div class="form-group">
+                <label for="evento">Evento de Interesse:</label>
+                <select id="evento" name="evento">
+                    <option value="workshop-verao">Workshop de Verão</option>
+                    <option value="intensivo-pontas">Intensivo de Pontas</option>
+                    <option value="outros">Outros</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="mensagem">Observações (Opcional):</label>
+                <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+            </div>
+
+            <button type="submit" class="btn-reg" style="width: 100%; border: none; cursor: pointer;">Enviar Inscrição</button>
+        </form>
+    </section>
+
+</body>
+</html>

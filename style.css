@@ -1,0 +1,75 @@
+:root {
+    --primary: #f4dada;
+    --accent: #9d8189;
+    --text: #4a3b52;
+    --bg: #faf8f9;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Poppins', sans-serif; background: var(--bg); color: var(--text); }
+h1, h2, h3, .logo { font-family: 'Playfair Display', serif; }
+
+.container { max-width: 1000px; margin: 0 auto; padding: 60px 20px; }
+nav { display: flex; justify-content: space-between; padding: 20px 5%; background: #fff; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+nav ul { display: flex; list-style: none; }
+nav ul li { margin-left: 20px; }
+nav ul li a { text-decoration: none; color: var(--text); }
+
+.hero { height: 60vh; background: var(--primary); display: flex; align-items: center; justify-content: center; text-align: center; }
+.section-title { text-align: center; margin-bottom: 40px; }
+
+/* Notícias */
+.news-card { background: #fff; padding: 30px; border-radius: 8px; display: flex; gap: 20px; align-items: center; box-shadow: 0 4px 10px rgba(0,0,0,0.03); }
+.news-img { width: 40%; border-radius: 5px; }
+
+/* Cards de Eventos */
+.events-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+.card { background: #fff; border-radius: 8px; overflow: hidden; cursor: pointer; transition: 0.3s; }
+.card:hover { transform: scale(1.02); }
+.card-img { height: 180px; background-size: cover; background-position: center; }
+.card-body { padding: 15px; }
+
+/* Modal e Galeria */
+.modal { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); overflow-y: auto; }
+.modal-content { background: #fff; margin: 5% auto; padding: 30px; width: 90%; max-width: 800px; border-radius: 10px; position: relative; }
+.close { position: absolute; right: 20px; top: 10px; font-size: 30px; cursor: pointer; }
+.gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin: 20px 0; }
+.gallery-grid img { width: 100%; border-radius: 5px; }
+.video-container { margin-top: 20px; }
+.btn-reg { display: inline-block; padding: 10px 20px; background: var(--accent); color: #fff; text-decoration: none; border-radius: 5px; margin-top: 15px; }
+
+footer { background: var(--primary); padding: 40px 0; margin-top: 50px; }
+
+/* Estilos do Formulário */
+.form-inscricao {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.form-group input, 
+.form-group select, 
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-group input:focus {
+    outline-color: var(--accent);
+    border-color: var(--accent);
+}
