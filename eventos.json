@@ -2,14 +2,23 @@
   {
     "id": "evt-01",
     "status": "passado",
-    "titulo": "Gala de Inverno 2025",
-    "data": "15/12/2025",
+    "titulo": "O Fabuloso Circo do Balé",
+    "data": "21/11/2025",
     "descricao": "Uma celebração da técnica russa.",
     "imagens": ["galeria1.jpg", "galeria2.jpg"],
     "videos": ["https://www.youtube.com/embed/exemplo1"]
   },
   {
     "id": "evt-02",
+    "status": "passado",
+    "titulo": "Mostra de Dança Clássica - Ballet Karina Pavão",
+    "data": "21/06/2025",
+    "descricao": "Uma celebração da técnica russa.",
+    "imagens": ["galeria1.jpg", "galeria2.jpg"],
+    "videos": ["https://www.youtube.com/embed/exemplo1"]
+  },
+  {
+    "id": "evt-03",
     "status": "andamento",
     "titulo": "Workshop de Verão",
     "data": "10/02/2026",
@@ -17,4 +26,5 @@
     "imagens": ["promo.jpg"],
     "videos": []
   }
+
 ]
