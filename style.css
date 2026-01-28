@@ -20,7 +20,7 @@ nav ul li a { text-decoration: none; color: var(--text); }
 
 /* Notícias */
 .news-card { background: #fff; padding: 30px; border-radius: 8px; display: flex; gap: 20px; align-items: center; box-shadow: 0 4px 10px rgba(0,0,0,0.03); }
-.news-img { width: 40%; border-radius: 5px; }
+.news-img { width: 30%; border-radius: 5px; }
 
 /* Cards de Eventos */
 .events-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
@@ -74,5 +74,6 @@ footer { background: var(--primary); padding: 40px 0; margin-top: 50px; }
     border-color: var(--accent);
 
 }
+
 
 
