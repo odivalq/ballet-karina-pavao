@@ -15,7 +15,7 @@ nav ul { display: flex; list-style: none; }
 nav ul li { margin-left: 20px; }
 nav ul li a { text-decoration: none; color: var(--text); }
 
-.hero { height: 60vh; background: var(--primary); display: flex; align-items: center; justify-content: center; text-align: center; }
+.hero { height: 60vh; background: linear-gradient(rgba(244, 218, 218, 0.3), rgba(244, 218, 218, 0.3)), url('img/logo_maior.png') no-repeat center center/cover; display: flex; align-items: center; justify-content: center; text-align: center; }
 .section-title { text-align: center; margin-bottom: 40px; }
 
 /* Notícias */
@@ -72,4 +72,5 @@ footer { background: var(--primary); padding: 40px 0; margin-top: 50px; }
 .form-group input:focus {
     outline-color: var(--accent);
     border-color: var(--accent);
+
 }
