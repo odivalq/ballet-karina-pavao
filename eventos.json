@@ -23,7 +23,7 @@
     "titulo": "Espetáculo Casa de Bonecas",
     "data": "20/11/2024",
     "descricao": "Uma performance encantadora onde bailarinas ganham vida como brinquedos em um cenário mágico de Casa de Bonecas.",
-    "imagens": ["img/events/casa_bonecas.jpg", "galeria2.jpg"],
+    "imagens": ["img/events/casa_bonecas1.jpeg", "img/events/casa_bonecas.jpg", "img/events/casa_bonecas2.jpeg"],
     "videos": ["https://www.youtube.com/embed/exemplo1"]
   },
    {
@@ -32,7 +32,7 @@
     "titulo": "Mostra de Dança Clássica - Ballet Karina Pavão",
     "data": "24/06/2024",
     "descricao": "Uma exibição graciosa e delicada que celebra a essência técnica do balé clássico através da pureza dos movimentos das pequenas bailarinas.",
-    "imagens": ["galeria1.jpg", "galeria2.jpg"],
+    "imagens": ["img/events/mostra_classica2024.jpeg", "galeria2.jpg"],
     "videos": ["https://www.youtube.com/embed/exemplo1"]
   },
   {
@@ -41,7 +41,7 @@
     "titulo": "Espetáculo Fundo do Mar",
     "data": "29/11/2023",
     "descricao": "Uma jornada mágica sob as ondas, onde pequenas bailarinas deslizam como peixes e criaturas marinhas em um oceano de pura delicadeza.",
-    "imagens": ["galeria1.jpg", "galeria2.jpg"],
+    "imagens": ["img/events/fundo_mar1.jpeg", "img/events/fundo_mar2.jpeg"],
     "videos": ["https://www.youtube.com/embed/exemplo1"]
   },
   {
@@ -55,5 +55,6 @@
   }
 
 ]
+
 
 
