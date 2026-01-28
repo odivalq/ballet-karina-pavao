@@ -5,7 +5,7 @@
     "titulo": "O Fabuloso Circo do Balé",
     "data": "21/11/2025",
     "descricao": "Uma exibição vibrante e lúdica onde pequenas bailarinas transformam o palco em um verdadeiro picadeiro mágico com figurinos inspirados no universo circense.",
-    "imagens": ["galeria1.jpg", "galeria2.jpg"],
+    "imagens": ["img/events/circo.jpg", "galeria2.jpg"],
     "videos": ["https://www.youtube.com/embed/exemplo1"]
   },
   {
@@ -14,7 +14,7 @@
     "titulo": "Mostra de Dança Clássica - Ballet Karina Pavão",
     "data": "21/06/2025",
     "descricao": "Uma exibição graciosa e delicada que celebra a essência técnica do balé clássico através da pureza dos movimentos das pequenas bailarinas.",
-    "imagens": ["galeria1.jpg", "galeria2.jpg"],
+    "imagens": ["img/events/mostra_classica_2025.jpg", "galeria2.jpg"],
     "videos": ["https://www.youtube.com/embed/exemplo1"]
   },
    {
@@ -23,7 +23,7 @@
     "titulo": "Espetáculo Casa de Bonecas",
     "data": "20/11/2024",
     "descricao": "Uma performance encantadora onde bailarinas ganham vida como brinquedos em um cenário mágico de Casa de Bonecas.",
-    "imagens": ["galeria1.jpg", "galeria2.jpg"],
+    "imagens": ["img/events/casa_bonecas.jpg", "galeria2.jpg"],
     "videos": ["https://www.youtube.com/embed/exemplo1"]
   },
    {
@@ -55,4 +55,5 @@
   }
 
 ]
+
 
