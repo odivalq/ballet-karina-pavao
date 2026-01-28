@@ -32,7 +32,7 @@
     "titulo": "Mostra de Dança Clássica - Ballet Karina Pavão",
     "data": "24/06/2024",
     "descricao": "Uma exibição graciosa e delicada que celebra a essência técnica do balé clássico através da pureza dos movimentos das pequenas bailarinas.",
-    "imagens": ["img/events/mostra_classica2024.jpeg", "galeria2.jpg"],
+    "imagens": ["img/events/amostra_classica2024.jpeg", "galeria2.jpg"],
     "videos": ["https://www.youtube.com/embed/exemplo1"]
   },
   {
@@ -55,6 +55,7 @@
   }
 
 ]
+
 
 
 
