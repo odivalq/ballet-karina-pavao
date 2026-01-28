@@ -96,7 +96,7 @@ footer { background: var(--primary); padding: 40px 0; margin-top: 50px; }
 .image-block { flex: 1; }
 
 .img-fluid {
-    width: 100%;
+    width: 60%;
     height: auto;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.05);
@@ -149,3 +149,4 @@ footer { background: var(--primary); padding: 40px 0; margin-top: 50px; }
         flex-direction: column;
     }
 }
+
