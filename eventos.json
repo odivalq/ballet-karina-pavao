@@ -47,10 +47,10 @@
   {
     "id": "evt-03",
     "status": "andamento",
-    "titulo": "em construção",
-    "data": "sem previsão",
+    "titulo": "Mostra de Dança Clássica 2026",
+    "data": "20/06/2026",
     "descricao": "Aguarde novidades!",
-    "imagens": ["promo.jpg"],
+    "imagens": ["mostra2026.png"],
     "videos": []
   }
 
