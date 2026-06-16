@@ -45,6 +45,15 @@
     "videos": ["https://www.youtube.com/embed/exemplo1"]
   },
   {
+    "id": "evt-07",
+    "status": "andamento",
+    "titulo": "Alice no País das Maravilhas",
+    "data": "12/11/2026",
+    "descricao": "Um espetáculo encantador inspirado na clássica história de Alice no País das Maravilhas, onde pequenas bailarinas ganham vida em um mundo mágico cheio de fantasia, cores e sonhos.",
+    "imagens": [],
+    "videos": []
+  },
+  {
     "id": "evt-03",
     "status": "andamento",
     "titulo": "Mostra de Dança Clássica 2026",
